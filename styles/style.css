@@ -29,8 +29,17 @@ h1{
     width: 50%;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.459);
     border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+#checkbox{
+    width: 25px;
+    height: 25px;
+    margin-left: 110px;
+}
+#labelcolor{
+    margin-right:45px ;
+}
+
 .output{
     background-color: green;
     width: 150px; 
@@ -49,11 +58,20 @@ h1{
     margin-top: 30px;
     padding-left: 30px;
 }
+.shadow{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.432);
+    padding-bottom: 5px;
+}
+
 .radius{
     margin-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+    padding-bottom: 5px;
 }
 .color{
     margin-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.418);
+    padding-bottom: 5px;
 }
 span{
     margin-left: 20px;
