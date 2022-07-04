@@ -24,7 +24,7 @@ function writeCss(){
         if(outPutBox.style.boxShadow == ""){
             printer.innerHTML = `background-color: ${colorPicker.value}; <br> border-radius: ${input.value}%;`//if shadow check box is not checked use this innerhtml
         }else{
-            printer.innerHTML = `shadow: ${outPutBox.style.boxShadow}; <br> background-color: ${colorPicker.value}; <br> border-radius: ${input.value}%;` //if shadow check box is  checked use this innerhtml
+            printer.innerHTML = `box-shadow: ${outPutBox.style.boxShadow}; <br> background-color: ${colorPicker.value}; <br> border-radius: ${input.value}%;` //if shadow check box is  checked use this innerhtml
         }
         
         //-*-*-*printer-*-*-*--*
