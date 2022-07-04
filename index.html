@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Simple Css Generator</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Simple CSS Generator</h1>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="output"></div>
+                <div class="inputarea">
+                    <div class="shadow">
+                        <label for="checbox">Shadow</label>
+                        <input type="checkbox" id="checkbox">
+                    </div>
+                    <div class="color">
+                        <label for="color">Choose Box Color</label>
+                        <input type="color" id="colorpicker" value="#008000">
+                    </div>
+                    <div class="radius">
+                        <label for="range">Border Radius</label>
+                        <span class="result">0%</span>
+                        <input class="input" type="range" min="0" max="50" value="0"/> 
+                    </div>
+                <div>
+                    <input type="button" value="CSS Document" id="cssWriter" onclick="writeCss()"> <!--print css code button-->
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="printarea">
+            <!--print css code area-->
+        </div>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
