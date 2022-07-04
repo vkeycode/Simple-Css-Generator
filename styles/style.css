@@ -33,9 +33,10 @@ h1{
 }
 .output{
     background-color: green;
-    width: 100px; 
-    height: 100px; 
+    width: 150px; 
+    height: 150px; 
     margin: 30px;
+    margin-right: 60px;
 }
 .result{
     color: rgb(0, 0, 0); 
